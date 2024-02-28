@@ -14,7 +14,7 @@ public class Main {
         Segment segment;
         segment = new Segment(point, new Point(5.7F, 2.8F));
 
-
-        System.out.println(segment.distance());
+        System.out.println(segment.toSvg());
+        //System.out.println(segment.distance());
     }
 }
